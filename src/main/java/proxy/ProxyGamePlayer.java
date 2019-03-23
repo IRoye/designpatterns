@@ -34,6 +34,7 @@ public class ProxyGamePlayer implements IGamePlayer {
      * 感觉代理真正的好处是在这里的，有关real Subject 的逻辑自己实现
      * 除此之外，before(), after()这类的事情交给代理来实现。real Suject 只关心最重要的逻辑
      * 引申一些就是spring AOP
+     * 其他的比如消息预处理、活驴消息、消息转发、事后处理消息等功能。
      */
 
     public void before() {

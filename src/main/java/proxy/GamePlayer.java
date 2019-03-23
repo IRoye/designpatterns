@@ -16,6 +16,10 @@ public class GamePlayer implements IGamePlayer {
         }
     }
 
+    public GamePlayer(String name) {
+        this.name = name;
+    }
+
     public void login(String username, String password) {
         System.out.println("suername: " + username + " password:" + password);
     }
